@@ -15,6 +15,8 @@ RUN apt-get update -q && apt-get install -y --no-install-recommends \
         lsof \
     && rm -rf /var/lib/apt/lists/*
 
+# GitHub Actions Test
+
 #-------------------------------------------------------------------------------------------------
 # 開発PC用のドライバをインストールする
 # （Gazeboが起動しない場合やGPUを使いたい場合は、ここで必要なドライバをインストールして下さい）
