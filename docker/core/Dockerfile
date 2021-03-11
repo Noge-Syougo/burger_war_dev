@@ -13,8 +13,6 @@ FROM ghcr.io/p-robotics-hub/burger-war-kit:$KIT_VERSION
 #     libarmadillo8 \
 #     && rm -rf /var/lib/apt/lists/*
 
-# GitHub Actions Test1
-
 # pipで必要なパッケージをインストールする例
 #-------------------------------------------------
 # RUN yes | pip install \
